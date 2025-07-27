@@ -3,7 +3,15 @@ import { ShadowButton } from './ShadowButton';
 
 export const CommunitySection: React.FC = () => {
   return (
-    <section className="flex w-full h-[677px] flex-col justify-center items-center gap-2.5 shrink-0 px-[374px] py-12 max-md:px-10 max-md:py-12 max-sm:h-auto max-sm:min-h-[400px] max-sm:p-5">
+    <section 
+      className="flex w-full h-[677px] flex-col justify-center items-center gap-2.5 shrink-0 px-[374px] py-12 max-md:px-10 max-md:py-12 max-sm:h-auto max-sm:min-h-[400px] max-sm:p-5"
+      style={{
+        backgroundImage: `url('/lovable-uploads/3d58be91-afd8-4673-ae51-94d7d4215600.png')`,
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        backgroundRepeat: 'no-repeat'
+      }}
+    >
       <div className="flex w-[736px] max-w-full flex-col items-center gap-8 bg-white px-0 py-8 rounded-2xl border-2 border-solid border-black max-md:gap-5 max-md:px-5 max-md:py-[15px] max-sm:gap-6 max-sm:flex-col max-sm:items-stretch max-sm:w-full max-sm:max-w-none max-sm:px-0 max-sm:py-6">
         <h2 className="self-stretch text-black text-center text-[40px] font-semibold px-8 py-0 max-md:gap-5 max-md:text-[32px] max-md:px-5 max-md:py-0 max-sm:gap-6 max-sm:w-full max-sm:max-w-none max-sm:text-2xl max-sm:px-4 max-sm:py-0">
           Community
