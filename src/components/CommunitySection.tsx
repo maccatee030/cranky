@@ -29,7 +29,7 @@ export const CommunitySection: React.FC = () => {
             <img
               src="https://api.builder.io/api/v1/image/assets/TEMP/4d75fcf09aa2f5099dbf3dc494af0c59adcbb350?width=56"
               alt="Social platform"
-              className="w-7 h-[34px] relative -ml-2.5 mt-[5px]"
+              className="w-7 h-[34px]"
             />
           </ShadowButton>
 
