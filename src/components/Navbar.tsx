@@ -16,7 +16,7 @@ export const Navbar: React.FC = () => {
           <img
             src="https://api.builder.io/api/v1/image/assets/TEMP/5c4d00abf281a532bf990623b589aa3db36ebda0?width=56"
             alt="Social media icon"
-            className="w-7 h-[34px] relative -ml-2.5 mt-[5px]"
+            className="w-7 h-[34px]"
           />
         </ShadowButton>
 
